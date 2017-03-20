@@ -85,6 +85,38 @@
 * [ThingSpeak](https://thingspeak.com/)
 * [ThinkSpeak Data Visualization](nrl.iis.sinica.edu.tw/LASS/PM25.php?site=III&city=台北市&district=信義區&channel=152239&apikey=9ND1FVDPKLQGPDRI)
 
+## 【 Firmware 】
+ * Linkit Smart 7688
+   *  [Firmware](https://labs.mediatek.com/site/global/developer_tools/mediatek_linkit_smart_7688/sdt_intro/index.gsp)
+
+## 【 Tools 】
+ * Windows 作業系統
+   *  登入
+      * Windows 端
+        * [Putty](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
+   *  傳送檔案 
+      * Windows 端
+        * [FileZilla Client](https://filezilla-project.org/)
+      * Linkit Smart 7688 端
+        * ```opkg update```
+        * ```opkg install openssh-sftp-server```   
+ * macOS 作業系統
+   *  登入 / 傳送檔案（本地端到 Linkit Smart 7688 端）- 終端機
+      * 登入（在本地端電腦的終端機執行） ➙ ```ssh root@Linkit Smart 7688 的IP```
+      * 傳送檔案（在本地端電腦的終端機執行） ➙ ```scp 在電腦中的檔案位置 root@Linkit Smart 7688 的IP:要傳送到 Linkit Smart 7688 中的位置```
+
+## 【 JSON Tools 】
+ * [JSON Lint](http://jsonlint.com/)
+ * [JSON Editor Online](http://www.jsoneditoronline.org/)
+
+## 【 Troubleshooting 】
+ * 如果在瀏覽器輸入所設定的 local domain ( 預設為 ```http://mylinkit.local``` ) 後無法顯示設定頁時
+   *  請安裝 [Bonjour Print Services](https://support.apple.com/kb/dl999?locale=zh_TW)
+   *  再重新在瀏覽器輸入所設定的 local domain 
+ * 當登入時發生 ```WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!``` 錯誤
+   * 於終端機輸入 ```ssh-keygen -R IP位置 ```
+   * 再重新 Login
+
 ## 【 Reference 】
 
 * [Get Started with the LinkIt Smart 7688](https://docs.labs.mediatek.com/resource/linkit-smart-7688/en/get-started/get-started-with-the-linkit-smart-7688-development-board)
