@@ -64,6 +64,10 @@
    * [Jupyter](http://jupyter.org/)
      * Command: ipython notebook
 
+## 【 Arduino IDE 設定 】
+   *  ```檔案(File)``` ➙ ```偏好設定(Preferences)```
+      http://download.labs.mediatek.com/package_mtk_linkit_smart_7688_test_index.json
+
 ## 【 Firmware 】
 * [Download](https://docs.labs.mediatek.com/resource/linkit-smart-7688/en/downloads)
 
