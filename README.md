@@ -109,6 +109,9 @@
       * 登入（在本地端電腦的終端機執行） ➙ ```ssh root@Linkit Smart 7688 的IP```
       * 傳送檔案（在本地端電腦的終端機執行） ➙ ```scp 在電腦中的檔案位置 root@Linkit Smart 7688 的IP:要傳送到 Linkit Smart 7688 中的位置```
 
+## 【 Linkit Smart 7688 Duo Driver (Windows Platform) 】
+ * http://download.labs.mediatek.com/mediatek_linkit_smart_7688_duo-windows-com-port-driver.zip 
+
 ## 【 JSON Tools 】
  * [JSON Lint](http://jsonlint.com/)
  * [JSON Editor Online](http://www.jsoneditoronline.org/)
