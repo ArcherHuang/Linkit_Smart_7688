@@ -128,6 +128,8 @@
  * 當登入時發生 ```WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!``` 錯誤
    * 於終端機輸入 ```ssh-keygen -R IP位置 ```
    * 再重新 Login
+ * COM Port 消失
+   * [請參考教學文章](http://oranwind.org/-linkit-smart-7688-com-port-xiao-shi/)
 
 ## 【 Reference 】
 
