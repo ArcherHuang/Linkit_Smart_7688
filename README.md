@@ -105,6 +105,7 @@
    *  傳送檔案 
       * Windows 端
         * [FileZilla Client](https://filezilla-project.org/)
+        * [WinSCP](https://winscp.net/eng/download.php)
       * Linkit Smart 7688 端
         * ```opkg update```
         * ```opkg install openssh-sftp-server```   
