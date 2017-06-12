@@ -66,7 +66,7 @@
       * Command: ipython notebook
 
 ## 【 Arduino IDE 設定 】
-   *  ```檔案(File)``` ➙ ```偏好設定(Preferences)```
+   *  ```檔案(File)``` ➙ ```偏好設定(Preferences)``` ➙ ```Additional Boards Manager URLs```
       http://download.labs.mediatek.com/package_mtk_linkit_smart_7688_test_index.json
 
 ## 【 Firmware 】
