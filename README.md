@@ -72,6 +72,9 @@
 ## 【 Firmware 】
 * [Download](https://docs.labs.mediatek.com/resource/linkit-smart-7688/en/downloads)
 
+## 【 Firmware 】
+* [Download]()
+
 ## 【 Library 】
 
 * DHT ( DHT sensor library by Adafruit Version: 1.2.3 )
