@@ -8,13 +8,15 @@ from bridgeclient import BridgeClient as bridgeclient
 
 deviceId = "B1trqusM-"
 deviceKey = "bd2f16cd1d7883f9b07861a38838539ab944745e3adcf6af5f6ed3dd36e67732"
+serverIP = "192.168.43.85"
+serverPort = "3000"
 
 def post_to_mcslite(payload):
     headers = {"Content-type": "text/csv", "deviceKey": deviceKey}
     not_connected = 1
     while (not_connected):
         try:
-            conn = httplib.HTTPConnection("192.168.43.85:3000")
+            conn = httplib.HTTPConnection( serverIP + ":" + serverPort )
             conn.connect()
             not_connected = 0
         except (httplib.HTTPException, socket.error) as ex:
