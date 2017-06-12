@@ -106,7 +106,7 @@
       * Windows 端
         * [FileZilla Client](https://filezilla-project.org/)
         * [WinSCP](https://winscp.net/eng/download.php)
-      * Linkit Smart 7688 端
+      * Linkit Smart 7688 端 ( FileZilla Client )
         * ```opkg update```
         * ```opkg install openssh-sftp-server```   
  * macOS 作業系統
