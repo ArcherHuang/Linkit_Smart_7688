@@ -61,8 +61,7 @@
  * Python
    * [Sublime Text](https://www.sublimetext.com/)
    * [Visual Studio Code](https://code.visualstudio.com/b?utm_expid=101350005-27.GqBWbOBuSRqlazQC_nNSRg.1&utm_referrer=https%3A%2F%2Fwww.google.com.tw%2F)
-   * [Jupyter](http://jupyter.org/) [教學](http://oranwind.org/bid-data-mac-os-an-zhuang-jupyter/)
-      
+   * [Jupyter](http://jupyter.org/)   [教學](http://oranwind.org/bid-data-mac-os-an-zhuang-jupyter/)
       * Command: ipython notebook
 
 ## 【 Arduino IDE 設定 】
