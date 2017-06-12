@@ -72,8 +72,8 @@
 ## 【 Firmware 】
 * [Download](https://docs.labs.mediatek.com/resource/linkit-smart-7688/en/downloads)
 
-## 【 Firmware 】
-* [Download]()
+## 【 Windows Driver 】
+* [Download](http://download.labs.mediatek.com/mediatek_linkit_smart_7688_duo-windows-com-port-driver.zip )
 
 ## 【 Library 】
 
