@@ -10,7 +10,7 @@
                             
 | 通訊協定 | 網路服務提供商 |
 |---|---|
-| HTTP | ThingSpeak、MediaTek Cloud Sandbox (MCS)、Google Firebase |
+| HTTP | ThingSpeak、MediaTek Cloud Sandbox (MCS)、MediaTek Cloud Sandbox Lite (MCS Lite)、Google Firebase |
 | MQTT | LASS、MediaTek Cloud Sandbox (MCS)、AWS IoT、IBM Bluemix IoT Platform |
 | WebSocket | WoT.City |
                 
