@@ -31,7 +31,7 @@ client = gspread.authorize(creds)
  
 # Set Sheet
 #sheet = client.open("7688data").sheet1
-sheet = client.open("7688data").worksheet("sensingData")
+sheet = client.open("sensingData").worksheet("DHT")
 
 # Get Value
 # list_of_hashes = sheet.get_all_records()
