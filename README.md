@@ -52,7 +52,6 @@
 * [Grove - OLED Display 1.12"](https://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)
 
 ## 【 Pin-out Diagram 】
-![Imgur](http://i.imgur.com/3fXpr8O.png)
 ![Imgur](http://i.imgur.com/utzDNBs.png)
 
 ## 【 Integrated Development Environment - IDE 】
