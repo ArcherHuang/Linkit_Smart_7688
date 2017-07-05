@@ -53,6 +53,7 @@
 
 ## 【 Pin-out Diagram 】
 ![Imgur](http://i.imgur.com/3fXpr8O.png)
+![Imgur](http://i.imgur.com/utzDNBs.png)
 
 ## 【 Integrated Development Environment - IDE 】
  
