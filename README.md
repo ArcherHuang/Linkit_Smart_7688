@@ -6,6 +6,7 @@
   - [物聯網架構與應用](#物聯網架構與應用)
   - [通訊協定與網路服務提供商](#通訊協定與網路服務提供商)
   - [實作架構](#實作架構)
+    - [實作架構](#實作架構)
 - [檔案說明](#file-description)
 - [開發板與感測器](#board-and-sensor)
 - [Pinout Diagram](#pinout-diagram)
