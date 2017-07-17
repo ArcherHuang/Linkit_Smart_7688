@@ -13,6 +13,8 @@
   - [感測器](#感測器)
 - [Pinout Diagram](#pinout-diagram)
 - [IDE](#integrated-development-environment)
+  - [Arduino](#arduino)
+  - [Python](#python)
 - [CP2102N USB-to-UART 驅動程式](#cp2102n-usb-to-uart)
 - [Arduino IDE 設定](#arduino-ide)
 - [Firmware](#firmware)
@@ -88,9 +90,9 @@
 
 ## Integrated Development Environment
  
- * Arduino
+### Arduino
    *  [Arduino IDE v1.6.4](https://www.arduino.cc/en/Main/OldSoftwareReleases)
- * Python
+### Python
    * [Sublime Text](https://www.sublimetext.com/)
    * [Visual Studio Code](https://code.visualstudio.com/b?utm_expid=101350005-27.GqBWbOBuSRqlazQC_nNSRg.1&utm_referrer=https%3A%2F%2Fwww.google.com.tw%2F)
    
