@@ -1,4 +1,4 @@
-# Programs running on LinkIt Smart 7688 Duo that connects to IoT Platform
+# Welcome to LinkIt Smart 7688 Duo
      
 ## 【 Overview 】       
                                                                   
