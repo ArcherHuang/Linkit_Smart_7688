@@ -25,6 +25,8 @@
 - [Service](#service)
 - [Firmware](#firmware)
 - [Tools](#tools)
+  - [Windows OS](#windows-os)
+  - [macOS OS](#macos)
 - [JSON Tools](#json-tools)
 - [Troubleshooting](#troubleshooting)
 - [Reference](#reference)
@@ -138,7 +140,7 @@
    *  [Firmware](https://labs.mediatek.com/site/global/developer_tools/mediatek_linkit_smart_7688/sdt_intro/index.gsp)
 
 ## Tools
- * Windows 作業系統
+### Windows OS
    *  登入
       * Windows 端
         * [Putty](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
@@ -149,7 +151,7 @@
       * Linkit Smart 7688 端 ( FileZilla Client )
         * ```opkg update```
         * ```opkg install openssh-sftp-server```   
- * macOS 作業系統
+### macOS
    *  登入 / 傳送檔案（本地端到 Linkit Smart 7688 端）- 終端機
       * 登入（在本地端電腦的終端機執行） ➙ ```ssh root@Linkit Smart 7688 的IP```
       * 傳送檔案（在本地端電腦的終端機執行） ➙ ```scp 在電腦中的檔案位置 root@Linkit Smart 7688 的IP:要傳送到 Linkit Smart 7688 中的位置```
