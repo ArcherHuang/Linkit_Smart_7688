@@ -1,6 +1,27 @@
 # Welcome to LinkIt Smart 7688 Duo
-     
-## 【 Overview 】       
+
+## Contents
+
+- [Overview](#overview)
+- [檔案說明](#file-description)
+- [開發板與感測器](#board-and-sensor)
+- [Pinout Diagram](#pinout-diagram)
+- [IDE](#integrated-development-environment)
+- [CP2102N USB-to-UART 驅動程式](#cp2102n-usb-to-uart)
+- [Arduino IDE 設定](#arduino-ide)
+- [Firmware](#firmware)
+- [Linkit Smart 7688 Duo Driver ( Windows Platform ) ](#linkit-smart-7688-duo-driver)
+- [Library](#library)
+- [Service](#service)
+- [Firmware](#firmware)
+- [Tools](#tools)
+- [JSON Tools](#json-tools)
+- [Troubleshooting](#troubleshooting)
+- [Reference](#reference)
+- [Blog](#blog)
+- [License](#license)
+
+## Overview       
                                                                   
 * 物聯網架構與應用                 
                                                                                                                                            
@@ -17,7 +38,7 @@
 * 實作架構  
 ![Imgur](http://i.imgur.com/WFNcC1p.png)
     
-## 【 檔案說明 】
+## File Description
       
 | 編號 | 資料夾 |  檔案名稱 | 說明  |
 |---|---|---|---|
@@ -43,7 +64,7 @@
 |20| /IoT Cloud  |  /Python/linkit_Smart_7688_IBM_Bluemix_Subscribe.py | 從 IBM Bluemix 取得資料 |
 |21| /IoT Cloud  |  /Python/linkit_Smart_7688_Firebase.py | 將  Sensor Data 傳送到 Google Firebase |
 
-## 【 Board and Sensor 】
+## Board and Sensor
 
 * [LinkIt Smart 7688 Duo](https://www.seeedstudio.com/LinkIt-Smart-7688-Duo-p-2574.html)
 * [Arduino Breakout for LinkIt Smart 7688 Duo](https://www.seeedstudio.com/Arduino-Breakout-for-LinkIt-Smart-7688-Duo-p-2576.html)
@@ -51,10 +72,10 @@
 * [Grove - Dust Sensor](https://www.seeedstudio.com/Grove-Dust-Sensor-p-1050.html)
 * [Grove - OLED Display 1.12"](https://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)
 
-## 【 Pin-out Diagram 】
+## Pinout Diagram
 ![Imgur](http://i.imgur.com/utzDNBs.png)
 
-## 【 Integrated Development Environment - IDE 】
+## Integrated Development Environment
  
  * Arduino
    *  [Arduino IDE v1.6.4](https://www.arduino.cc/en/Main/OldSoftwareReleases)
@@ -66,17 +87,17 @@
       * 教學: [Link](http://oranwind.org/bid-data-mac-os-an-zhuang-jupyter/)
       * Command: ipython notebook
 
-## 【 Arduino IDE 設定 】
+## Arduino IDE
    *  ```檔案(File)``` ➙ ```偏好設定(Preferences)``` ➙ ```Additional Boards Manager URLs```
       http://download.labs.mediatek.com/package_mtk_linkit_smart_7688_test_index.json
 
-## 【 Firmware 】
+## Firmware
 * [Download](https://docs.labs.mediatek.com/resource/linkit-smart-7688/en/downloads)
 
-## 【 Linkit Smart 7688 Duo Driver ( Windows Platform ) 】
+## Linkit Smart 7688 Duo Driver
 * [Download](http://download.labs.mediatek.com/mediatek_linkit_smart_7688_duo-windows-com-port-driver.zip )
 
-## 【 Library 】
+## Library
 
 * DHT ( DHT sensor library by Adafruit Version: 1.2.3 )
    *  在 Arduino Sketch 中點選```草稿碼``` ➙ ```匯入程式庫``` ➙ ```管理程式庫``` ➙ 右上角搜尋欄位輸入 ```DHT``` ➙ 選擇 ```DHT sensor library by Adafruit Version: 1.2.3```
@@ -84,7 +105,7 @@
    *  到 [Seeed OLED library Github](https://github.com/Seeed-Studio/OLED_Display_128X64) 頁面中的右上角下載整個 ZIP 檔
    *  在 Arduino Sketch 中點選```草稿碼``` ➙ ```匯入程式庫``` ➙ ```加入 .ZIP 程式庫```  ➙ 選擇上一步驟所下載的 ZIP 檔
       
-## 【 Service 】
+## Service
 
 * [WoT.City](https://wotcity.com/)
 * [Amazon Web Services Cloud](https://aws.amazon.com/tw/)
@@ -94,11 +115,11 @@
 * [ThingSpeak](https://thingspeak.com/)
 * [ThinkSpeak Data Visualization](nrl.iis.sinica.edu.tw/LASS/PM25.php?site=III&city=台北市&district=信義區&channel=152239&apikey=9ND1FVDPKLQGPDRI)
 
-## 【 Firmware 】
+## Firmware
  * Linkit Smart 7688
    *  [Firmware](https://labs.mediatek.com/site/global/developer_tools/mediatek_linkit_smart_7688/sdt_intro/index.gsp)
 
-## 【 Tools 】
+## Tools
  * Windows 作業系統
    *  登入
       * Windows 端
@@ -115,14 +136,11 @@
       * 登入（在本地端電腦的終端機執行） ➙ ```ssh root@Linkit Smart 7688 的IP```
       * 傳送檔案（在本地端電腦的終端機執行） ➙ ```scp 在電腦中的檔案位置 root@Linkit Smart 7688 的IP:要傳送到 Linkit Smart 7688 中的位置```
 
-## 【 Linkit Smart 7688 Duo Driver (Windows Platform) 】
- * http://download.labs.mediatek.com/mediatek_linkit_smart_7688_duo-windows-com-port-driver.zip 
-
-## 【 JSON Tools 】
+## JSON Tools
  * [JSON Lint](http://jsonlint.com/)
  * [JSON Editor Online](http://www.jsoneditoronline.org/)
 
-## 【 Troubleshooting 】
+## Troubleshooting
  * 如果在瀏覽器輸入所設定的 local domain ( 預設為 ```http://mylinkit.local``` ) 後無法顯示設定頁時
    *  請安裝 [Bonjour Print Services](https://support.apple.com/kb/dl999?locale=zh_TW)
    *  再重新在瀏覽器輸入所設定的 local domain 
@@ -133,16 +151,16 @@
    
     * [請參考教學文章](http://oranwind.org/-linkit-smart-7688-com-port-xiao-shi/)
 
-## 【 Reference 】
+## Reference
 
 * [Get Started with the LinkIt Smart 7688](https://docs.labs.mediatek.com/resource/linkit-smart-7688/en/get-started/get-started-with-the-linkit-smart-7688-development-board)
 * [Get Started with the LinkIt Smart 7688 Duo](https://docs.labs.mediatek.com/resource/linkit-smart-7688/en/get-started/get-started-with-the-linkit-smart-7688-duo-development-board)
 * [LinkIt Smart 7688 Developer’s Guide](https://labs.mediatek.com/en/download/ih80Qtjo)
 
-## 【 Blog 】
+## Blog
 * [Archer @ 部落格](https://github.com/ArcherHuang/MyBlog/blob/master/README.md)
 
-## 【 License 】
+## License
 
 The MIT License (MIT)
 
