@@ -26,7 +26,7 @@
 - [Firmware](#firmware)
 - [Tools](#tools)
   - [Windows OS](#windows-os)
-  - [macOS OS](#macos)
+  - [macOS](#macos)
 - [JSON Tools](#json-tools)
 - [Troubleshooting](#troubleshooting)
 - [Reference](#reference)
