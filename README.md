@@ -8,6 +8,9 @@
   - [實作架構](#實作架構)
 - [檔案說明](#file-description)
 - [開發板與感測器](#board-and-sensor)
+  - [開發板](#開發板)
+  - [擴充板](#擴充板)
+  - [感測器](#感測器)
 - [Pinout Diagram](#pinout-diagram)
 - [IDE](#integrated-development-environment)
 - [CP2102N USB-to-UART 驅動程式](#cp2102n-usb-to-uart)
@@ -72,7 +75,7 @@
 ### 開發板
 * [LinkIt Smart 7688 Duo](https://www.seeedstudio.com/LinkIt-Smart-7688-Duo-p-2574.html)
 
-### 擴統板
+### 擴充板
 * [Arduino Breakout for LinkIt Smart 7688 Duo](https://www.seeedstudio.com/Arduino-Breakout-for-LinkIt-Smart-7688-Duo-p-2576.html)
 
 ### 感測器
