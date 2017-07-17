@@ -15,7 +15,6 @@
 - [IDE](#integrated-development-environment)
   - [Arduino](#arduino)
   - [Python](#python)
-- [CP2102N USB-to-UART 驅動程式](#cp2102n-usb-to-uart)
 - [Arduino IDE 設定](#arduino-ide)
 - [Firmware](#firmware)
 - [Linkit Smart 7688 Duo Driver ( Windows Platform ) ](#linkit-smart-7688-duo-driver)
