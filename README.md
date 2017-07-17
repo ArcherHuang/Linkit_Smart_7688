@@ -105,11 +105,11 @@
    *  [Arduino IDE v1.6.4](https://www.arduino.cc/en/Main/OldSoftwareReleases)
 ### Python
    * [Sublime Text](https://www.sublimetext.com/)
-   * [Visual Studio Code](https://code.visualstudio.com/b?utm_expid=101350005-27.GqBWbOBuSRqlazQC_nNSRg.1&utm_referrer=https%3A%2F%2Fwww.google.com.tw%2F)
-   
+   * [Visual Studio Code](https://code.visualstudio.com/)
    * [Jupyter](http://jupyter.org/)   
       * 教學: [Link](http://oranwind.org/bid-data-mac-os-an-zhuang-jupyter/)
       * Command: ipython notebook
+   * [IBM Data Science Experience Desktop](https://datascience.ibm.com/desktop) 
 
 ## Arduino IDE
 [Back](#contents)
