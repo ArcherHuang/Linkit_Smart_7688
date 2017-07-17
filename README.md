@@ -4,6 +4,8 @@
 
 - [Overview](#overview)
   - [物聯網架構與應用](#物聯網架構與應用)
+  - [通訊協定與網路服務提供商](#通訊協定與網路服務提供商)
+  - [實作架構](#實作架構)
 - [檔案說明](#file-description)
 - [開發板與感測器](#board-and-sensor)
 - [Pinout Diagram](#pinout-diagram)
@@ -28,7 +30,7 @@
                                                                                                                                            
 ![Imgur](http://i.imgur.com/xLnaQpC.png)
                                   
-* 通訊協定與網路服務提供商                 
+### 通訊協定與網路服務提供商                 
                             
 | 通訊協定 | 網路服務提供商 |
 |---|---|
@@ -36,7 +38,7 @@
 | MQTT | LASS、MediaTek Cloud Sandbox (MCS)、AWS IoT、IBM Bluemix IoT Platform |
 | WebSocket | WoT.City |
                 
-* 實作架構  
+### 實作架構  
 ![Imgur](http://i.imgur.com/WFNcC1p.png)
     
 ## File Description
