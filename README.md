@@ -3,6 +3,7 @@
 ## Contents
 
 - [Overview](#overview)
+  - [物聯網架構與應用](#物聯網架構與應用)
 - [檔案說明](#file-description)
 - [開發板與感測器](#board-and-sensor)
 - [Pinout Diagram](#pinout-diagram)
@@ -23,7 +24,7 @@
 
 ## Overview       
                                                                   
-* 物聯網架構與應用                 
+### 物聯網架構與應用                 
                                                                                                                                            
 ![Imgur](http://i.imgur.com/xLnaQpC.png)
                                   
