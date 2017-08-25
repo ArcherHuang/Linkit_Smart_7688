@@ -21,8 +21,8 @@ app = Flask(__name__)
 # *********************************************************************
 
 def setup(): 
-  global s 
-  s = serial.Serial("/dev/ttyS0", 57600) 
+	global s 
+	s = serial.Serial("/dev/ttyS0", 57600) 
 
 # *****************************************************************************************
 # POST http://mylinkit.local:5000/api/v1.0/turnOnLED
