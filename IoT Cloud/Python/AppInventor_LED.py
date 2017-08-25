@@ -1,3 +1,5 @@
+# pip install flask
+
 import serial 
 import time
 from flask import Flask
